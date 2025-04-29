@@ -20,4 +20,4 @@ jobs:
 
       - name: Build project and run test
         run: |
-          make
+          make test
