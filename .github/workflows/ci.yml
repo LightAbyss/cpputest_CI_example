@@ -24,8 +24,8 @@ jobs:
           git clone https://github.com/cpputest/cpputest.git ~/tools/cpputest
           cd ~/tools/cpputest
           autoreconf ~/tools/cpputest -i
-          ./~/tools/cpputest/configure
-          make
+          ~/tools/cpputest/configure
+          make -C ~/tools/cpputest
 
       - name: Build project and run test
         run: |
