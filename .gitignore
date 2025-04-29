@@ -3,5 +3,7 @@
 lib/
 
 *.o
-
+*.txt
 *.a
+
+test_sw
